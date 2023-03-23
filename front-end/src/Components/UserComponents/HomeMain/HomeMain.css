@@ -1,0 +1,72 @@
+ .homeMain{
+    background: linear-gradient(to left, #d4dbdd 50%, #ece5e5 50%);
+    height:680px;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+
+}
+.homeMain h1{
+    margin:0;
+    padding: 0;
+    font-size: x-large;
+    margin-bottom: 10px;
+}  
+.homeMain a{
+    color: blueviolet;
+} 
+
+.profile-container{
+    display:flex;
+    justify-content: center;
+}
+.profile{
+    width: 40%;
+    background: linear-gradient(to left,white  50%, #d4dbdd 50%);
+
+    border-width: thin;
+    border-color: cadetblue;
+    
+    
+}
+.profile-head{
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.profile-photo{
+    width: 120px;
+    height: 120px;
+    border-style: groove;
+    border:solid ;
+    border-width: thin; 
+
+}
+.homeMain form div{
+    display: flex;
+    margin-bottom:20px ;
+    justify-content: space-around;
+}
+ 
+    
+
+.form{
+    display: flex;
+    flex-direction: column;
+    margin-right: 150px;
+    justify-content: center;
+}
+input:focus {
+    outline: none;
+}
+.image-label{
+position: relative;
+left: 8rem;
+}
+.profile-photo img{
+    width:120px;
+    height: 120px;
+}

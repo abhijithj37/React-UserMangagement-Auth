@@ -1,0 +1,18 @@
+.head{
+    background: linear-gradient(to bottom, #33ccff 0%, #3bd8d8 100%);
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.head nav .active{
+ margin-right: 50px;
+ color:white;
+ text-decoration: none;
+ 
+ font-size: medium;
+}
+.logo{
+    font-size: x-large;
+    color: aliceblue;
+}
